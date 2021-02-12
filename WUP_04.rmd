@@ -51,7 +51,11 @@ This plot shows the Degree level with the Wordsum, the Graduate Degree seems to 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(WORDSUM~DEGREE,data=GSSdata)
+```
 
+LT High School average score is 7.75 which is the smallest; followed by High School, Bachelor, Junior College and Graduate with the highest average score of 10.095238.
 
 ## Inferential Results
 
